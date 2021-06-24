@@ -1,0 +1,28 @@
+.profile {
+  .react-datepicker-wrapper {
+    width: 100%;
+
+    input {
+      border: 1px solid #a6acb9;
+      border-radius: 4px;
+      padding: 0.5rem 0.75rem;
+      width: 100%;
+      background-color: transparent;
+    }
+  }
+}
+
+.patient-profile,
+.doctor-profile,
+.admin-profile {
+  .profile-image {
+    max-width: 15rem;
+    border-radius: 50%;
+    border: solid thin #dcdfe5;
+    padding: 4%;
+    width: 15rem;
+    height: 15rem;
+    object-position: top center;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,47 @@
+.patient-wrapper {
+  .dashboard {
+    h2 {
+      font: {
+        size: 1.5rem
+      }
+    }
+
+    table {
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.03);
+
+      th {
+        font: {
+          weight: normal;
+        }
+      }
+    }
+
+    .dashboard-card {
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.03);
+
+      .amount {
+        p {
+          font: {
+            size: 3.5rem;
+          };
+        }
+      }
+    }
+
+    .assessment-card {
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.03);
+
+    }
+
+    .react-datepicker-wrapper {
+      width: 100%;
+      input {
+        border: 1px solid #a6acb9;
+        border-radius: 4px;
+        padding: 0.25rem 0.75rem;
+        width: 100%;
+        background-color: transparent
+      }
+    }
+  }
+}

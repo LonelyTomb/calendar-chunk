@@ -1,0 +1,37 @@
+.checker-page {
+  .page-links {
+    ul {
+      button {
+        border: {
+          bottom: 1px solid #DBDBDB;
+        }
+        outline: none;
+      }
+    }
+  }
+}
+
+.doctor-card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+.badge-rating {
+  background: #EF9D4B;
+  border-radius: 39px;
+}
+
+.help-cards {
+  .help-card-1,
+  .help-card-2 {
+    box-shadow: 0 8px 16px rgba(65, 86, 105, 0.1);
+    border-radius: 4px
+  }
+
+  .help-card-1 {
+    background: #013A51;
+  }
+
+  .help-card-2 {
+    background: #ffffff;
+  }
+}
